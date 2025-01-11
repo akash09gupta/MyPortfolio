@@ -9,6 +9,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
 
 
 const Home = () => {
@@ -109,12 +110,12 @@ const Home = () => {
               </div>
               <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
                 <a 
-                href="https://x.com/i/flow/single_sign_on" 
+                href="https://github.com/akash09gupta/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{color:'black'}}
                 >
-                <FaSquareTwitter size={_700 ? 30 : 10}/>
+                <FaGithubSquare size={_700 ? 30 : 10}/>
                 </a>
               </div>
               <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
