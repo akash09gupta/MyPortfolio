@@ -13,7 +13,6 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const Home = () => {
   const _700 = useMediaQuery("(min-width: 700px)");
-  const _950 = useMediaQuery("(min-width: 950px)");
     return (
       <>
         <div className='home-content' id='home'
@@ -172,7 +171,7 @@ const Home = () => {
           <div className="my-img"
           style={{
             width:_700 ? '33vw' : '20rem',
-            height:_950 ? '70vh' : '35vh',
+            height:'70vh',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor:'pink',
             backgroundImage:`url(${intro_img})`,

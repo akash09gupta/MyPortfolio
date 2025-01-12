@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
         <div className="about-section" id='about' style={{
-            marginTop:_700 ? 0 : '4rem', 
+            marginTop:_700 ? 0 : '5rem', 
             borderBottom: '2px solid gray'
             }}>
             <Typography
