@@ -4,7 +4,7 @@ const About = () => {
     const _700 = useMediaQuery("(min-width: 700px)");
     return (
         <>
-        <div className="about-section" id='about' style={{marginTop: _700 ? 0 : '15rem', borderBottom: '2px solid gray'}}>
+        <div className="about-section" id='about' style={{marginTop: _700 ? 0 : '2rem', borderBottom: '2px solid gray'}}>
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
@@ -18,7 +18,7 @@ const About = () => {
                 marginLeft: _700 ? '6rem' : '2rem',
                 marginRight:'6rem',
                 marginBottom:'1rem',
-                fontSize: _700 ? 18 : 10,
+                fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
             }}
             >
@@ -28,7 +28,7 @@ const About = () => {
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
-                fontSize: _700 ? 25 : 15,
+                fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827',
             }}
@@ -39,7 +39,7 @@ const About = () => {
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
                 marginRight:'6rem',
-                fontSize: _700 ? 18 : 10,
+                fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
             }}
@@ -50,7 +50,7 @@ const About = () => {
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
-                fontSize: _700 ? 25 : 15,
+                fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
             }}
@@ -61,7 +61,7 @@ const About = () => {
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
                 marginRight:'6rem',
-                fontSize: _700 ? 18 : 10,
+                fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
             }}
@@ -78,7 +78,7 @@ const About = () => {
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
-                fontSize: _700 ? 25 : 15,
+                fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
             }}
@@ -89,7 +89,7 @@ const About = () => {
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
                 marginRight:'6rem',
-                fontSize: _700 ? 18 : 10,
+                fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
             }}
@@ -104,7 +104,7 @@ const About = () => {
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
-                fontSize: _700 ? 25 : 15,
+                fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
             }}
@@ -115,7 +115,7 @@ const About = () => {
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
                 marginRight:'6rem',
-                fontSize: _700 ? 18 : 10,
+                fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
             }}

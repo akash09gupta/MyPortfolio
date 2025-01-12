@@ -6,7 +6,7 @@ import { Typography, useMediaQuery } from '@mui/material';
 const Project = () => {
     const _700 = useMediaQuery("(min-width: 700px)");
     return (
-        <><div id='projects' style={{borderBottom:'2px solid gray', zIndex:-1}}>
+        <><div id='projects' style={{left:0,borderBottom:'2px solid gray', zIndex:-1}}>
         <Typography
         sx={{
             marginLeft: _700 ? '6rem' : '2rem',
@@ -18,17 +18,25 @@ const Project = () => {
         >Projects</Typography>
         <div className="project" 
         style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            // display: 'grid',
+            // gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            // justifyContent:'center',
+            // alignItems:'center',
+            // gap: '1.5rem',
+            // // marginRight:'6rem',
+            // paddingBottom:'3rem',
+            display:'flex',
+            flexWrap:'wrap',
+            justifyContent:'space-around',
+            alignItems:'center',
             gap: '1.5rem',
-            marginRight:'6rem',
-            paddingBottom:'3rem',
+            paddingBottom:'3rem'
         }}
         >
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden', 
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)', 
             }}>
@@ -50,7 +58,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -72,7 +80,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -93,7 +101,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -113,7 +121,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -135,7 +143,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -157,7 +165,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -179,7 +187,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
@@ -201,7 +209,7 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            marginLeft: _700 ? '6rem' : '2rem', 
+            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>

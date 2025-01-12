@@ -29,11 +29,13 @@ const Experiance = () => {
         </Typography>
         <div className="exp"
         style={{
-            marginLeft: _700 ? '6rem' : '2rem',
+            marginLeft: _700 ? '6rem' : 0,
             display: _700 ? 'grid' : 'flex',
             flexWrap: _700 ? 'nowrap':'wrap',
             gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
             gap: '1rem',
+            justifyContent:'center',
+            alignItems:'center'
         }}
         >
             <div 

@@ -7,7 +7,8 @@ import Project from "./components/project";
 import { Toaster } from "react-hot-toast";
 
 function App() {
-  return (
+  return (<>
+    <Navbar/>
     <div 
     className="App" 
     style={{
@@ -17,7 +18,6 @@ function App() {
       height:'100vh', 
       margin:'0'
       }}>
-      <Navbar/>
       <Home />
       <About/>
       <Project/>
@@ -25,6 +25,7 @@ function App() {
       <Contact/>
       <Toaster />
     </div>
+    </>
   );
 }
 

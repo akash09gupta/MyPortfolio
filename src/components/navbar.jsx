@@ -14,7 +14,7 @@ const Navbar = () => {
       alignItems:"center",
       background:"black",
       top:'0',
-      width:"100vw",
+      width:"100%",
       height:_700 ? "4rem" : "6rem",
       position:"fixed"
       }}>

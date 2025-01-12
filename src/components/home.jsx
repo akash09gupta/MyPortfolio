@@ -18,15 +18,15 @@ const Home = () => {
         <div className='home-content' id='home'
         style={{
           maxWidth:'100%',
-          height:_700 ? '75vh' : '50vh',
+          height:_700 ? '75vh' : '90vh',
           display:'flex',
-          flexDirection: 'row',
+          flexDirection: _700 ? 'row' : 'column-reverse',
           marginTop:'10rem',
         }}
         >
           <div className="intro" 
           style={{
-            width: '60vw',
+            width: _700 ? '60vw' : '80vw',
             height:_700 ? '75vh' : '50vh',
             display:'flex',
             flexDirection:'column',
@@ -62,13 +62,13 @@ const Home = () => {
                 fontWeight:'bold', 
                 marginLeft:'2rem', 
                 paddingLeft: _700 ? '6rem' : '2rem',
-                fontSize:_700 ? '1rem' : '0.5rem'
+                fontSize:_700 ? '1rem' : '0.8rem'
                 }}>Available on</h6>
               <h6 style={{
                 fontWeight:'bold', 
                 marginRight:'4.5rem', 
-                paddingLeft:_700 ? '6rem' : '2rem',
-                fontSize:_700 ? '1rem' : '0.5rem'
+                paddingLeft:'6rem',
+                fontSize:_700 ? '1rem' : '0.8rem',
                 }}>Currently working on</h6>
             </div>
             <div className="bottom-info" 
@@ -87,44 +87,48 @@ const Home = () => {
               paddingLeft:_700 ? '6rem' : '3rem'
             }}
             >
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
+              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem',paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'}}>
                 <a 
                 href="https://www.linkedin.com/in/akash09gupta/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{color:'black'}}
                 >
-                <FaLinkedin size={_700 ? 30 : 10}/>
+                <FaLinkedin size={_700 ? 30 : 20}/>
                 </a>
               </div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
+              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem',paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'}}>
                 <a 
                 href="https://www.hackerrank.com/profile/akashgupta211ag" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{color:'black'}}
                 >
-                <FaHackerrank size={_700 ? 30 : 10}/>
+                <FaHackerrank size={_700 ? 30 : 20}/>
                 </a>
               </div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
+              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem',paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'}}>
                 <a 
                 href="https://github.com/akash09gupta/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{color:'black'}}
                 >
-                <FaGithubSquare size={_700 ? 30 : 10}/>
+                <FaGithubSquare size={_700 ? 30 : 20}/>
                 </a>
               </div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}>
+              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem',paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'}}>
                 <a 
                 href="https://www.instagram.com/akash097_9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 style={{color:'black'}}
                 >
-                <FaInstagramSquare size={_700 ? 30 : 10}/>
+                <FaInstagramSquare size={_700 ? 30 : 20}/>
                 </a>
               </div>
             </div>
@@ -134,27 +138,51 @@ const Home = () => {
               flexDirection:'row', 
               justifyContent:'center', 
               alignItems:'center', 
-              marginRight:_700 ? '3rem' : 0
+              marginRight:_700 ? '3rem' : 0,
             }}
             >
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}><BiLogoMongodb size={_700 ? 30 : 10}/></div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}><SiExpress size={_700 ? 30 : 10}/></div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}><FaReact size={_700 ? 30 : 10}/></div>
-              <div style={{width:_700 ? '3rem':'1rem', height1:'2rem'}}><FaNodeJs size={_700 ? 30 : 10}/></div>
+              <div style={{
+                width:_700 ? '3rem':'1rem', 
+                height:'2rem', 
+                paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'
+                }}><BiLogoMongodb size={_700 ? 30 : 20}/></div>
+              <div style={{
+                width:_700 ? '3rem':'1rem', 
+                height:'2rem', 
+                paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'
+                }}><SiExpress size={_700 ? 30 : 20}/></div>
+              <div style={{
+                width:_700 ? '3rem':'1rem', 
+                height:'2rem', 
+                paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'
+                }}><FaReact size={_700 ? 30 : 20}/></div>
+              <div style={{
+                width:_700 ? '3rem':'1rem', 
+                height:'2rem', 
+                paddingRight:_700 ? '0' : '1rem',
+                paddingLeft:_700 ? '0' : '1rem'
+                }}><FaNodeJs size={_700 ? 30 : 20}/></div>
             </div>
           </div>
           </div>
           <div className="my-img"
           style={{
-            width:'33vw',
-            height:_700 ? '70vh' : '20vh',
+            width:_700 ? '33vw' : '20rem',
+            height:'70vh',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor:'pink',
             backgroundImage:`url(${intro_img})`,
             borderRadius:'50%',
             backgroundSize:'cover',
             backgroundPosition:'center',
-            backgroundRepeat: "no-repeat" 
+            backgroundRepeat: "no-repeat",
+            marginLeft:_700 ? 0 : 'auto',
+            marginRight:_700 ? 0 : 'auto',
+            marginTop:_700 ? 0 : 'auto',
+            marginBottom:_700 ? 0 : '5rem',
           }}
           ></div>
         </div>
