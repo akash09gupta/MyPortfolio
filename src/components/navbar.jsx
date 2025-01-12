@@ -25,17 +25,18 @@ const Navbar = () => {
           backgroundImage: `url(${logo})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",  
-          width: _700 ? "4rem" : "2rem",
-          height: _700 ? "4rem" : "2rem",
+          width: _700 ? "4rem" : "2.5rem",
+          height: _700 ? "4rem" : "2.5rem",
           }}></div>
           {_700 ? <div 
           style={{
             color:"white", 
+            fontFamily:'revert',
             fontWeight:'bold',
-            fontSize:'1.5rem',
-            paddingBottom:'0.8rem'
+            fontSize:'1.8rem',
+            paddingBottom:'0.8rem',
             }}>
-              Akash Gupta Portfolio
+              Akash Gupta
           </div> : ''}
         <div className="navbar-menu">
           <ul className="navbar-list" 
