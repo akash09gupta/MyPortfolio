@@ -18,13 +18,6 @@ const Project = () => {
         >Projects</Typography>
         <div className="project" 
         style={{
-            // display: 'grid',
-            // gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-            // justifyContent:'center',
-            // alignItems:'center',
-            // gap: '1.5rem',
-            // // marginRight:'6rem',
-            // paddingBottom:'3rem',
             display:'flex',
             flexWrap:'wrap',
             justifyContent:'space-around',
@@ -36,195 +29,186 @@ const Project = () => {
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden', 
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)', 
             }}>
             <img src={p3} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor: _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Amazon Clone</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >This project is an Amazon clone website that replicates some of the features 
                     and functionalities of the original Amazon website. 
                     It includes sections for navigation, product listings, user account management, and more.</p>
                 <a href="https://akash-amazon-clone.netlify.app/" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >Live Project Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p3} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem',color : _700 ? 'black' : 'white'}}
                 >Rock Paper Scissors</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript. 
                 This project allows users to play the classic game against a computer opponent, 
                 with the computer making random choices each round.</p>
                 <a href="https://akash09gupta.github.io/Rock-Paper-Scissor-Game/" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >Live Project Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p3} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Tic Tac Toe</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >This project is a simple implementation of the classic Tic-Tac-Toe game where two players take turns marking spaces 
                 on a 3x3 grid to try and get three of their symbols in a row, column, or diagonal.</p>
                 <a href="https://akash09gupta.github.io/Tic-Toe-Game/" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >Live Project Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p1} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Pizza Sales Data Analysis</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >The Pizza Sales Data Analysis project focuses on exploring sales data from 2015 to uncover valuable business insights. Using Python and libraries like Pandas and Matplotlib, I analyzed key performance metrics and visualized the findings to support decision-making.</p>
                 <a href="https://www.linkedin.com/posts/akash09gupta_dataanalysis-pizzasales-businessinsights-activity-7263828921232629760-HVPu?utm_source=share&utm_medium=member_desktop" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >LinkedIn Post Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p1} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 > Adani Enterprises Stock Data Analysis Dashboard</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >
                     This Power BI dashboard analyzes Adani Enterprises' stock performance, highlighting trends, volume movements, and key indicators. It provides valuable insights for investors and analysts to understand market dynamics effectively.
                 </p>
                 <a href="https://www.linkedin.com/posts/akash09gupta_powerbi-datavisualization-stockanalysis-activity-7259457414461030400-FpzY?utm_source=share&utm_medium=member_desktop" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >LinkedIn Post Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p1} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Virat Kohli Career Statistics Analysis Dashboard</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >
                     This Power BI dashboard provides an analysis of Virat Kohli's career, showcasing batting performance, trends, yearly progress, milestones, and consistency through detailed visualizations.
                 </p>
                 <a href="https://www.linkedin.com/posts/akash09gupta_powerbi-datavisualization-viratkohli-activity-7256917625518071809-ONz7?utm_source=share&utm_medium=member_desktop" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >LinkedIn Post Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p2} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Simple Banking Application</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >
                     A simple Java console-based banking application that allows users to perform basic banking operations such as depositing money, withdrawing money, checking balance, and transferring funds.
                 </p>
                 <a href="https://github.com/akash09gupta/CodeAlpha_SimpleBankingApplication" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >GitHub Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p2} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem', color : _700 ? 'black' : 'white'}}
                 >Hotel Reservation System</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >
                     This Java application allows users to check available rooms, reserve rooms, modify bookings, cancel reservations, make payments, and exit. It also provides features for updating payment status and generating receipts.
                 </p>
                 <a href="https://github.com/akash09gupta/CodeAlpha_HotelReservationSystem" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >GitHub Link</a>
             </div>
         </div>
         <div className="card" 
         style={{
             width: _700 ? '20rem' : '18rem',
-            // marginLeft: _700 ? '6rem' : '2rem', 
             overflow: 'hidden',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             }}>
             <img src={p2} className="card-img-top" alt="..."/>
-            <div className="card-body" style={{backgroundColor: '#EFF3EA'}}>
+            <div className="card-body" style={{backgroundColor:  _700 ? '#EFF3EA' : '#212121'}}>
                 <h5 className="card-title"
-                style={{fontSize:_700 ? '1.3rem':'1rem'}}
+                style={{fontSize:_700 ? '1.3rem':'1rem',color : _700 ? 'black' : 'white'}}
                 >Student Grade Tracker</h5>
                 <p className="card-text"
-                style={{fontSize:_700 ? '1rem':'0.8rem'}}
+                style={{fontSize:_700 ? '1rem':'0.8rem', color : _700 ? 'black' : 'white'}}
                 >
                     This Java program helps teachers efficiently track and manage student grades. It allows teachers to add new grades, modify existing ones, view grades by student or subject, and calculate average scores.
                 </p>
                 <a href="https://github.com/akash09gupta/CodeAlpha_StudentGradeTracker" className="btn btn-primary"
-                style={{fontSize: _700 ? '1rem':'0.8rem'}}
+                style={{fontSize: _700 ? '1rem':'0.8rem', fontWeight:'bold'}}
                 >GitHub Link</a>
             </div>
         </div>

@@ -4,7 +4,7 @@ const About = () => {
     const _700 = useMediaQuery("(min-width: 700px)");
     return (
         <>
-        <div className="about-section" id='about' style={{marginTop: _700 ? 0 : '2rem', borderBottom: '2px solid gray'}}>
+        <div className="about-section" id='about' style={{marginTop: _700 ? 0 : '4rem', borderBottom: '2px solid gray'}}>
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
