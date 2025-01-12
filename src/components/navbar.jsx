@@ -25,8 +25,8 @@ const Navbar = () => {
           backgroundImage: `url(${logo})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",  
-          width: _700 ? "4rem" : "2.5rem",
-          height: _700 ? "4rem" : "2.5rem",
+          width: _700 ? "4rem" : "2rem",
+          height: _700 ? "4rem" : "2rem",
           }}></div>
           {_700 ? <div 
           style={{
