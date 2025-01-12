@@ -2,10 +2,12 @@ import { Typography, useMediaQuery } from "@mui/material";
 
 const About = () => {
     const _700 = useMediaQuery("(min-width: 700px)");
-    const _850 = useMediaQuery("(min-width: 850px)");
     return (
         <>
-        <div className="about-section" id='about' style={{marginTop: _850 ? '13rem' : _700 ? 0 : '4rem', borderBottom: '2px solid gray'}}>
+        <div className="about-section" id='about' style={{
+            marginTop:_700 ? 0 : '4rem', 
+            borderBottom: '2px solid gray'
+            }}>
             <Typography
             sx={{
                 marginLeft: _700 ? '6rem' : '2rem',
