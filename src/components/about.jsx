@@ -6,7 +6,7 @@ const About = () => {
         <>
         <div className="about-section" id='about' style={{
             marginTop:_700 ? 0 : '5rem', 
-            borderBottom: '2px solid gray'
+            borderBottom: '2px solid gray',
             }}>
             <Typography
             sx={{
@@ -23,6 +23,8 @@ const About = () => {
                 marginBottom:'1rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
+                paddingRight:_700 ? 0 : '2rem',
+                width:_700 ? 'auto' : '100vw'
             }}
             >
             Hello, I'm Akash, a passionate Web developer with a keen eye for MERN Stack . With a background in IT, 
@@ -45,10 +47,12 @@ const About = () => {
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
+                paddingRight:_700 ? 0 : '2rem',
+                width:_700 ? 'auto' : '100vw'
             }}
             >
                 Bachelor of Computer Applications (BCA) | 2022–2025  
-                Invertis University, Bareilly, Uttar Pradesh
+                Invertis University Bareilly, Uttar Pradesh
             </Typography>
             <Typography
             sx={{
@@ -67,6 +71,8 @@ const About = () => {
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
+                paddingRight:_700 ? 0 : '2rem',
+                width:_700 ? 'auto' : '100vw'
             }}
             >
                 <ul>
@@ -95,6 +101,8 @@ const About = () => {
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
+                paddingRight:_700 ? 0 : '2rem',
+                width:_700 ? 'auto' : '100vw'
             }}
             >
                 <b>Java Intern | Code Alpha | Certificate</b>
@@ -121,6 +129,8 @@ const About = () => {
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
+                paddingRight:_700 ? 0 : '2rem',
+                width:_700 ? 'auto' : '100vw'
             }}
             >
                 My mission is to utilize my expertise in web development, data analysis, and software engineering to create innovative and impactful solutions that surpass client expectations. I am dedicated to continuous learning, embracing challenges, 

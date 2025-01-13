@@ -21,7 +21,7 @@ const Home = () => {
           height:_700 ? '75vh' : '100vh',
           display:'flex',
           flexDirection: _700 ? 'row' : 'column-reverse',
-          marginTop:'10rem',
+          marginTop:_700 ? '10rem' : '6rem',
         }}
         >
           <div className="intro" 
@@ -36,11 +36,12 @@ const Home = () => {
           >
             <h4 style={{paddingLeft:_700 ? '6rem' : '3rem', fontSize:_700 ? '1.5rem' : '1rem'}}>Welcome in My Feed</h4>
             <h1 style={{paddingLeft:_700 ? '6rem' : '3rem', fontSize:_700 ? '2.5rem' : '1rem'}}>Hello, I'm a <TypingAnimation /></h1>
-            <div className="introduction" style={{marginTop:'1.5rem'}}>
+            <div className="introduction" style={{marginTop:'1.5rem', width:_700 ? 'auto' : '100vw'}}>
               <p style={{
                 fontWeight:'bold', 
                 fontFamily: 'sans-serif', 
                 paddingLeft:_700 ? '6rem' : '3rem',
+                paddingRight:_700 ? 0 : '2rem',
                 fontSize: _700 ? '1rem' : '0.8rem'
                 }}>Hi, I’m Akash Gupta, a passionate and versatile professional skilled in web development, data analysis, and software engineering. 
                 With a strong foundation in creating secure and efficient applications, I specialize in turning ideas into impactful solutions.</p>
@@ -48,6 +49,7 @@ const Home = () => {
                 fontWeight:'bold', 
                 fontFamily: 'sans-serif',
                 paddingLeft:_700 ? '6rem' : '3rem',
+                paddingRight:_700 ? 0 : '2rem',
                 fontSize: _700 ? '1rem' : '0.8rem'
                 }}>I thrive on challenges, whether it’s crafting seamless user experiences, analyzing complex data, or building robust systems. Let's collaborate to create something amazing!</p>
             </div>
@@ -170,7 +172,7 @@ const Home = () => {
           </div>
           <div className="my-img"
           style={{
-            width:_700 ? '33vw' : '20rem',
+            width:_700 ? '33vw' : '90vw',
             height:'70vh',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor:'pink',
@@ -182,7 +184,7 @@ const Home = () => {
             marginLeft:_700 ? 0 : 'auto',
             marginRight:_700 ? 0 : 'auto',
             marginTop:_700 ? 0 : 'auto',
-            marginBottom:_700 ? 0 : '5rem',
+            marginBottom:_700 ? 0 : '2rem',
           }}
           ></div>
         </div>
