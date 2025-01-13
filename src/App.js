@@ -5,10 +5,13 @@ import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Project from "./components/project";
 import { Toaster } from "react-hot-toast";
+import NavbarMobile from "./components/navbarMobile";
+import { useMediaQuery } from "@mui/material";
 
 function App() {
+  const _700 = useMediaQuery("(min-width: 700px)");
   return (<>
-    <Navbar/>
+    {_700 ? <Navbar/> : <NavbarMobile/>}
     <div 
     className="App" 
     style={{
