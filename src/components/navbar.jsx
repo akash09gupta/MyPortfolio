@@ -16,7 +16,7 @@ const Navbar = () => {
       top:'0',
       width:"100%",
       height:_700 ? "4rem" : "6rem",
-      position:"fixed"
+      position:"fixed",
       }}>
         <div className="navbar-logo" 
         style={{

@@ -15,7 +15,7 @@ const NavbarMobile = () => {
       top:'0',
       width:"100%",
       height: '3.5rem',
-      position:"fixed"
+      position:"fixed",
       }}>
         <div className="navbar-logo" 
         style={{
@@ -56,6 +56,8 @@ const NavbarMobile = () => {
                           cursor: "pointer",
                           borderBottom:'1px solid gray'
                         }}
+                        onMouseEnter={(e) => (e.target.style.color = "gray")} // Change color on hover
+                        onMouseLeave={(e) => (e.target.style.color = "white")} // Reset color on leave
                         >
                           Home
                         </Link>
@@ -77,6 +79,8 @@ const NavbarMobile = () => {
                       cursor: "pointer",
                       borderBottom:'1px solid gray'
                     }}
+                    onMouseEnter={(e) => (e.target.style.color = "gray")} // Change color on hover
+                    onMouseLeave={(e) => (e.target.style.color = "white")} // Reset color on leave
                     >
                       About
                     </Link>
@@ -98,6 +102,8 @@ const NavbarMobile = () => {
                       cursor: "pointer",
                       borderBottom:'1px solid gray'
                     }}
+                    onMouseEnter={(e) => (e.target.style.color = "gray")} // Change color on hover
+                    onMouseLeave={(e) => (e.target.style.color = "white")} // Reset color on leave
                     >
                       Projects
                     </Link>
@@ -119,6 +125,8 @@ const NavbarMobile = () => {
                       cursor: "pointer",
                       borderBottom:'1px solid gray'
                     }}
+                    onMouseEnter={(e) => (e.target.style.color = "gray")} // Change color on hover
+                    onMouseLeave={(e) => (e.target.style.color = "white")} // Reset color on leave
                     >
                       Experiance
                     </Link>
@@ -141,6 +149,8 @@ const NavbarMobile = () => {
                       cursor: "pointer",
                       borderBottom:'1px solid gray'
                     }}
+                    onMouseEnter={(e) => (e.target.style.color = "gray")} // Change color on hover
+                    onMouseLeave={(e) => (e.target.style.color = "white")} // Reset color on leave
                     >
                       Contact
                     </Link>
@@ -154,3 +164,4 @@ const NavbarMobile = () => {
 }
 
 export default NavbarMobile;
+

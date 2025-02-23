@@ -1,6 +1,6 @@
 import { useMediaQuery } from "@mui/material";
 import TypingAnimation from "./TypingAnimation";
-import intro_img from '../assets/intro-img.jpeg';
+// import intro_img from '../assets/intro-img.jpeg';
 import { FaLinkedin } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -9,7 +9,10 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
-
+// import  pic1  from "../assets/pic1.jpg";
+import  pic2  from "../assets/pic2.jpg";
+// import  pic3  from "../assets/pic3.jpg";
+// import  pic4  from "../assets/pic4.jpg";
 
 const Home = () => {
   const _700 = useMediaQuery("(min-width: 700px)");
@@ -176,10 +179,11 @@ const Home = () => {
             height:'70vh',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor:'pink',
-            backgroundImage:`url(${intro_img})`,
+            // backgroundImage:`url(${intro_img})`,
+            backgroundImage:`url(${pic2})`,
             borderRadius:'50%',
             backgroundSize:'cover',
-            backgroundPosition:'center',
+            backgroundPosition:'top',
             backgroundRepeat: "no-repeat",
             marginLeft:_700 ? 0 : 'auto',
             marginRight:_700 ? 0 : 'auto',
