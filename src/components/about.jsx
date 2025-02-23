@@ -6,11 +6,11 @@ const About = () => {
         <>
         <div className="about-section" id='about' style={{
             marginTop:_700 ? 0 : '5rem', 
+            padding:_700 ? '6rem' : '2rem',
             borderBottom: '2px solid gray',
             }}>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
                 fontSize: _700 ? 35 : 25,
                 fontWeight: 'bolder',
                 marginBottom:'1rem'
@@ -18,13 +18,9 @@ const About = () => {
             >About</Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
-                marginRight:'6rem',
                 marginBottom:'1rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
-                paddingRight:_700 ? 0 : '2rem',
-                width:_700 ? 'auto' : '100vw'
             }}
             >
             Hello, I'm Akash, a passionate Web developer with a keen eye for MERN Stack . With a background in IT, 
@@ -32,7 +28,6 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
                 fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827',
@@ -42,13 +37,9 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
-                marginRight:'6rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
-                paddingRight:_700 ? 0 : '2rem',
-                width:_700 ? 'auto' : '100vw'
             }}
             >
                 Bachelor of Computer Applications (BCA) | 2022–2025  
@@ -56,7 +47,6 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
                 fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
@@ -66,13 +56,9 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
-                marginRight:'6rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
-                marginBottom:'1rem',
-                paddingRight:_700 ? 0 : '2rem',
-                width:_700 ? 'auto' : '100vw'
+                marginBottom:'1rem'
             }}
             >
                 <ul>
@@ -86,7 +72,6 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
                 fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
@@ -96,13 +81,9 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
-                marginRight:'6rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
-                paddingRight:_700 ? 0 : '2rem',
-                width:_700 ? 'auto' : '100vw'
             }}
             >
                 <b>Java Intern | Code Alpha | Certificate</b>
@@ -114,7 +95,6 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
                 fontSize: _700 ? 25 : 18,
                 fontWeight:'bolder',
                 color:'#F93827'
@@ -124,13 +104,9 @@ const About = () => {
             </Typography>
             <Typography
             sx={{
-                marginLeft: _700 ? '6rem' : '2rem',
-                marginRight:'6rem',
                 fontSize: _700 ? 18 : 15,
                 fontWeight: 'bolder',
                 marginBottom:'1rem',
-                paddingRight:_700 ? 0 : '2rem',
-                width:_700 ? 'auto' : '100vw'
             }}
             >
                 My mission is to utilize my expertise in web development, data analysis, and software engineering to create innovative and impactful solutions that surpass client expectations. I am dedicated to continuous learning, embracing challenges, 

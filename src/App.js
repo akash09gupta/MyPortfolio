@@ -17,6 +17,7 @@ function App() {
     style={{
       display:'flex', 
       flexDirection:'column', 
+      // alignItems:'center',
       width:'100%', 
       height:'100vh', 
       padding: '1rem',

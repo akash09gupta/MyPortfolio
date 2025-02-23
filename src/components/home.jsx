@@ -24,6 +24,8 @@ const Home = () => {
           height:_700 ? '75vh' : '100vh',
           display:'flex',
           flexDirection: _700 ? 'row' : 'column-reverse',
+          justifyContent:'center',
+          alignItems:'center',
           marginTop:_700 ? '10rem' : '6rem',
         }}
         >
@@ -37,13 +39,13 @@ const Home = () => {
             alignItems:'left',
           }}
           >
-            <h4 style={{paddingLeft:_700 ? '6rem' : '3rem', fontSize:_700 ? '1.5rem' : '1rem'}}>Welcome in My Feed</h4>
-            <h1 style={{paddingLeft:_700 ? '6rem' : '3rem', fontSize:_700 ? '2.5rem' : '1rem'}}>Hello, I'm a <TypingAnimation /></h1>
+            <h4 style={{paddingLeft:_700 ? '6rem' : 0, fontSize:_700 ? '1.5rem' : '1rem'}}>Welcome in My Feed</h4>
+            <h1 style={{paddingLeft:_700 ? '6rem' : 0, fontSize:_700 ? '2.5rem' : '1rem'}}>Hello, I'm a <TypingAnimation /></h1>
             <div className="introduction" style={{marginTop:'1.5rem', width:_700 ? 'auto' : '100vw'}}>
               <p style={{
                 fontWeight:'bold', 
                 fontFamily: 'sans-serif', 
-                paddingLeft:_700 ? '6rem' : '3rem',
+                paddingLeft:_700 ? '6rem' : 0,
                 paddingRight:_700 ? 0 : '2rem',
                 fontSize: _700 ? '1rem' : '0.8rem'
                 }}>Hi, I’m Akash Gupta, a passionate and versatile professional skilled in web development, data analysis, and software engineering. 
@@ -51,7 +53,7 @@ const Home = () => {
               <p style={{
                 fontWeight:'bold', 
                 fontFamily: 'sans-serif',
-                paddingLeft:_700 ? '6rem' : '3rem',
+                paddingLeft:_700 ? '6rem' : 0,
                 paddingRight:_700 ? 0 : '2rem',
                 fontSize: _700 ? '1rem' : '0.8rem'
                 }}>I thrive on challenges, whether it’s crafting seamless user experiences, analyzing complex data, or building robust systems. Let's collaborate to create something amazing!</p>
@@ -66,7 +68,7 @@ const Home = () => {
               <h6 style={{ 
                 fontWeight:'bold', 
                 marginLeft:'2rem', 
-                paddingLeft: _700 ? '6rem' : '2rem',
+                paddingLeft: _700 ? '6rem' : 0,
                 fontSize:_700 ? '1rem' : '0.8rem'
                 }}>Available on</h6>
               <h6 style={{
@@ -89,7 +91,7 @@ const Home = () => {
               flexDirection:'row', 
               justifyContent:'center', 
               alignItems:'center',
-              paddingLeft:_700 ? '6rem' : '3rem'
+              paddingLeft:_700 ? '6rem' : 0
             }}
             >
               <div style={{width:_700 ? '3rem':'1rem', height1:'2rem',paddingRight:_700 ? '0' : '1rem',
@@ -175,18 +177,15 @@ const Home = () => {
           </div>
           <div className="my-img"
           style={{
-            width:_700 ? '33vw' : '90vw',
-            height:'70vh',
+            width:_700 ? '33vw' : '20rem',
+            height:_700 ? '70vh' : '20rem',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor:'pink',
-            // backgroundImage:`url(${intro_img})`,
             backgroundImage:`url(${pic2})`,
             borderRadius:'50%',
             backgroundSize:'cover',
             backgroundPosition:'top',
             backgroundRepeat: "no-repeat",
-            marginLeft:_700 ? 0 : 'auto',
-            marginRight:_700 ? 0 : 'auto',
             marginTop:_700 ? 0 : 'auto',
             marginBottom:_700 ? 0 : '2rem',
           }}
