@@ -107,7 +107,7 @@ const Contact = () => {
             display:'flex',
             justifyContent:'space-evenly',
             alignItems:'end',
-            paddingBottom:'1.5rem'
+            paddingBottom:'1.5rem',
             }}>
             <FaFacebook size={30}/>
             <FaTwitter size={30}/>

@@ -23,10 +23,13 @@ const Home = () => {
           maxWidth:'100%',
           height:_700 ? '75vh' : '100vh',
           display:'flex',
+          // flexDirection: _700 ? 'row' : 'column-reverse',
           flexDirection: _700 ? 'row' : 'column-reverse',
           justifyContent:'center',
           alignItems:'center',
-          marginTop:_700 ? '10rem' : '6rem',
+          // marginTop:_700 ? '10rem' : '6rem',
+          marginTop:_700 ? '7rem' : '5rem',
+          // gap: '2rem'
         }}
         >
           <div className="intro" 
@@ -175,7 +178,7 @@ const Home = () => {
             </div>
           </div>
           </div>
-          <div className="my-img"
+          {/* <div className="my-img"
           style={{
             width:_700 ? '33vw' : '20rem',
             height:_700 ? '70vh' : '20rem',
@@ -189,7 +192,29 @@ const Home = () => {
             marginTop:_700 ? 0 : 'auto',
             marginBottom:_700 ? 0 : '2rem',
           }}
-          ></div>
+          ></div> */}
+          <div 
+          className="my-img"
+          style={{
+            width: _700 ? '33vw' : '20rem', 
+            height: _700 ? '33vw' : '20rem', // Ensure a perfect circle
+            minWidth: '200px',
+            minHeight: '200px',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
+            backgroundColor: 'transparent', // Remove the pink background
+            backgroundImage: `url(${pic2})`,
+            borderRadius: '50%', // Ensures a proper circle
+            backgroundSize: 'cover', // Ensures the image fills the circle properly
+            backgroundPosition: 'center', // Centers the image
+            backgroundRepeat: "no-repeat",
+            marginTop: _700 ? 0 : 'auto',
+            marginBottom: _700 ? 0 : '2rem',
+            display: 'flex', // Helps with centering
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        ></div>
+
         </div>
       </>
     )
