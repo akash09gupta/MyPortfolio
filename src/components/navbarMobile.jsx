@@ -3,6 +3,12 @@ import { Link } from 'react-scroll';
 import dropDown from '../assets/dropDown.png';
 
 const NavbarMobile = () => {
+  const scrollOptions = {
+    smooth: true,
+    duration: 400,
+    offset: -90,
+    containerId: "scroll-container" // Target the App div
+  };
   return (
     <>
       <div classNameName="navbar" 
@@ -44,10 +50,7 @@ const NavbarMobile = () => {
                     <button className="dropdown-item" type="button">
                     <Link
                         to="home"
-                        smooth={true}
-                        duration={400}
-                        offset={-90}
-                        activeClass="active"
+                        {...scrollOptions}
                         style={{
                           textDecoration: "none",
                           color: "white",
@@ -67,10 +70,7 @@ const NavbarMobile = () => {
                     <button className="dropdown-item" type="button">
                     <Link
                     to="about"
-                    smooth={true}
-                    duration={400}
-                    offset={-90}
-                    activeClass="active"
+                    {...scrollOptions}
                     style={{
                       textDecoration: "none",
                       color: "white",
@@ -90,10 +90,7 @@ const NavbarMobile = () => {
                     <button className="dropdown-item" type="button">
                     <Link
                     to="projects"
-                    smooth={true}
-                    duration={400}
-                    offset={-90}
-                    activeClass="active"
+                    {...scrollOptions}
                     style={{
                       textDecoration: "none",
                       color: "white",
@@ -113,10 +110,7 @@ const NavbarMobile = () => {
                     <button className="dropdown-item" type="button">
                     <Link
                     to="exp"
-                    smooth={true}
-                    duration={400}
-                    offset={-90}
-                    activeClass="active"
+                    {...scrollOptions}
                     style={{
                       textDecoration: "none",
                       color: "white",
@@ -136,10 +130,7 @@ const NavbarMobile = () => {
                     <button className="dropdown-item" type="button">
                     <Link
                     to="contact"
-                    smooth={true}
-                    duration={400}
-                    offset={-90}
-                    activeClass="active"
+                    {...scrollOptions}
                     style={{
                       textDecoration: "none",
                       color: "white",

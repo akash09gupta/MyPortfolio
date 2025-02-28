@@ -23,7 +23,12 @@ function App() {
       padding: '1rem',
       margin:'0',
       boxSizing: 'border-box',
-      }}>
+      overflowY: _700 ? 'unset' : "auto",  // Enable scrolling here
+      overflowX: _700 ? 'unset' : "hidden",
+      scrollBehavior: "smooth",
+      }}
+      id="scroll-container"
+      >
       <Home />
       <About/>
       <Project/>
