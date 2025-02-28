@@ -13,6 +13,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import  pic2  from "../assets/pic2.jpg";
 // import  pic3  from "../assets/pic3.jpg";
 // import  pic4  from "../assets/pic4.jpg";
+import resume from '../assets/akashWebDev.pdf';
 
 const Home = () => {
   const _700 = useMediaQuery("(min-width: 700px)");
@@ -61,6 +62,13 @@ const Home = () => {
                 fontSize: _700 ? '1rem' : '0.8rem'
                 }}>I thrive on challenges, whether it’s crafting seamless user experiences, analyzing complex data, or building robust systems. Let's collaborate to create something amazing!</p>
             </div>
+            <a href={resume} target="_blank" rel="noopener noreferrer"
+            style={{
+              marginLeft: _700 ? '6rem' : 0,
+            }}
+            id="resume-btn"
+            >
+              Resume</a>
             <div style={{
               display:'flex',
               flexDirection: 'row',

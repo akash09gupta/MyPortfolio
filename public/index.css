@@ -11,4 +11,25 @@ html, body {
       overflow-x: hidden;
     }
   }
+
+  #resume-btn {
+    background-color: #1B4D3E;  /* Dark green */
+    color: #F2F6D0; /* Light yellow-green */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: larger;
+    width: 7rem;
+    padding: 0.5rem; /* Add some padding for better appearance */
+    display: inline-block; /* Ensures proper alignment */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  #resume-btn:hover {
+    background-color: black; /* Slightly darker green on hover */
+  }
+  
+  
   
