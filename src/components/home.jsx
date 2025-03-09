@@ -10,9 +10,10 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 // import  pic1  from "../assets/pic1.jpg";
-import  pic2  from "../assets/pic2.jpg";
+// import  pic2  from "../assets/pic2.jpg";
 // import  pic3  from "../assets/pic3.jpg";
 // import  pic4  from "../assets/pic4.jpg";
+import  pic5  from "../assets/pic5.jpg";
 import resume from '../assets/akashWebDev.pdf';
 
 const Home = () => {
@@ -210,7 +211,7 @@ const Home = () => {
             minHeight: '200px',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5)',
             backgroundColor: 'transparent', // Remove the pink background
-            backgroundImage: `url(${pic2})`,
+            backgroundImage: `url(${pic5})`,
             borderRadius: '50%', // Ensures a proper circle
             backgroundSize: 'cover', // Ensures the image fills the circle properly
             backgroundPosition: 'center', // Centers the image
