@@ -14,7 +14,7 @@ import { FaGithubSquare } from "react-icons/fa";
 // import  pic3  from "../assets/pic3.jpg";
 // import  pic4  from "../assets/pic4.jpg";
 import  pic5  from "../assets/pic5.jpg";
-import resume from '../assets/akashWebDev.pdf';
+import resume from '../assets/Resume.pdf';
 
 const Home = () => {
   const _700 = useMediaQuery("(min-width: 700px)");
